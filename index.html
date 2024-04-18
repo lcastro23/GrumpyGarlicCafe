@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grumpy Garlic Café</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/garlic.png">
+        </div>
+        <button class="hamburger" onclick="toggleMenu()">&#9776;
+        </button>
+
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="banner">
+      <div class="banner-overlay">
+        <h1>Welcome to The Grumpy Garlic Cafe</h1>
+        <p>Discover Delicious Italian and American Cuisine</p>
+      </div>
+    </div>
+
+    <main>
+
+      <section class="featured-section">
+        <div class="image-box">
+          <img src="images/MENU.png" alt="Featured Dish">
+          <div class="image-overlay">
+            <h3>Full Menu</h3>
+            <p>Explore our mouth-watering signature dishes.</p>
+          </div>
+        </div>
+
+        <div class="image-box">
+          <img src="images/SPECIALS.png" alt="Special Offer">
+          <div class="image-overlay">
+            <h3>Special Offer</h3>
+            <p>Discover our latest promotions and discounts.</p>
+          </div>
+        </div>
+
+        <div class="image-box">
+            <img src="images/ORDER.png" alt="Online Ordering">
+          <div class="image-overlay">
+            <h3>Online Ordering</h3>
+            <p>Order your favorite dishes online for pickup or delivery.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slideshow -->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FFEIqNRLJe9Dy4rAyX83YsBThc3E%3D%2F0x0%3A5760x3840%2F1200x675%2Ffilters%3Afocal(2420x1460%3A3340x2380)%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_image%2Fimage%2F61790623%2FDon_Angie_16.0.jpg&f=1&nofb=1&ipt=2686c6c428bf4bb6189bd7e777ea32eb3bf329c83cd39487a19b4f6f0cfb259a&ipo=images" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftoscanaslc.com%2Fwp-content%2Fuploads%2F2016%2F06%2FCucina-Toscana-Flavors-of-Italian-Cuisine.jpg&f=1&nofb=1&ipt=5a36093f3fd6f8ed44676ae55da364ad1c4fd9fdd23b777d1a3d4e7d0b4fba01&ipo=images" style="width:100%">
+        </div>
+
+        <!-- Add more slides as needed -->
+
+        <!-- Navigation arrows -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+
+    </main>
+
+    <footer>
+
+      <div class="footer-info">
+        <p><a href="tel:4075555555">Hours of operation: Daily 11AM – 10PM</a></p>
+        <p><a href="tel:4075555555">Phone: 407-555-5555</a></p>
+        <p><a href="mailto:Hello@thegrumpygarlic.com">Email: Hello@thegrumpygarlic.com</a></p>
+      </div>
+      <div class="social-media">
+        <a href="#" class="social-button"><img src="https://cliply.co/wp-content/uploads/2019/04/371903520_SOCIAL_ICONS_FACEBOOK-1024x1024.png" alt="Facebook"></a>
+        <a href="#" class="social-button"><img src="http://icons.iconarchive.com/icons/blackvariant/button-ui-requests-3/1024/Twitter-icon.png" alt="Twitter"></a>
+        <a href="#" class="social-button"><img src="https://www.freepnglogos.com/uploads/pics-photos-instagram-logo-png-4.png" alt="Instagram"></a>
+      </div>
+
+
+      <div class="footer-additional">
+        <div class="address">
+          <h3>Address</h3>
+          <p>123 Main Street</p>
+          <p>City, State ZIP</p>
+        </div>
+
+        <div class="legal">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+          <p>&copy; 2024 The Grumpy Garlic Café</p>
+        </div>
+
+        <div class="newsletter">
+          <h3>Subscribe to Our Newsletter</h3>
+          <form action="#" method="post">
+            <input type="email" name="email" placeholder="Your Email Address">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
